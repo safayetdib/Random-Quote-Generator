@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: orange;
+	background: url(./img/background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: co;
+	font-family: 'Libre Baskerville', serif;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.wrapper {
+	margin: 10px;
+	max-height: 600px;
+	max-width: 320px;
+}
+
+header {
+	font-family: 'Inspiration', cursive;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+hr {
+	display: block;
+	margin: 20px 0;
+	width: 100%;
+}
+
+.container {
+	width: 100%;
+	background-color: rgba(245, 245, 245, 0.938);
+	padding: 30px 30px 20px 30px;
+	margin-bottom: 20px;
+	box-shadow: 0 20px 65px rgba(87, 11, 16, 0.5);
+	position: relative;
+	border-radius: 8px;
+	text-align: center;
+}
+.container p {
+	color: black;
+	line-height: 1.5;
+	font-size: 16px;
+	display: inline;
+	transition: opacity 1.3s ease-in;
+}
+.container h3 {
+	color: black;
+	margin: 30px 0;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.buttons,
+.icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.buttons {
+	flex-direction: column;
+}
+.icons a {
+	color: rgba(0, 0, 0, 0.658);
+	font-size: 18px;
+	text-decoration: none;
+}
+.icons a:nth-child(2) {
+	margin: 0 25px;
+}
+.icons a:nth-child(3) {
+	font-size: 20px;
+}
+.icons a i {
+	transition: all 0.3s ease-in-out;
+}
+.icons a:hover i {
+	transform: scale(1.2);
+	color: #1a8dc2;
+}
+
+.container button {
+	border: none;
+	padding: 10px 20px;
+	margin-top: 20px;
+	border-radius: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #f5af54;
+	color: black;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+.container button:hover {
+	background-color: orange;
+}
+.container button:active {
+	background-color: rgb(255, 115, 0);
+}
+
+.tags {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.tags button {
+	padding: 5px 10px;
+	margin: 5px 4px;
+	background-color: rgba(0, 0, 0, 0.438);
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	align-items: center;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.tags button:hover {
+	background-color: black;
+}
+.tags button:active {
+	background-color: rgb(36, 36, 36);
+}
+
+@media screen and (min-width: 480px) {
+	.wrapper {
+		max-width: 700px;
+	}
+	.buttons {
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.container button {
+		margin-top: 0;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.wrapper {
+		max-width: 1000px;
+	}
+	header {
+		font-size: 40px;
+		margin-bottom: 30px;
+	}
+	.container p {
+		font-size: 24px;
+	}
+	.container h3 {
+		font-size: 20px;
+	}
+	.container button {
+		font-size: 20px;
+	}
+	.tags button {
+		font-size: 16px;
+	}
+}
