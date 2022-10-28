@@ -18,6 +18,7 @@ Quote API : https://api.quotable.io/random
 * CSS
 * Javascript
 ---
-# https://safayetalam.github.io/Random-Quote-Generator/
+# Live Demo : https://safayetalam.github.io/Random-Quote-Generator/
+
 ---
 > GitHub [@SafayetAlam](https://github.com/SafayetAlam) &nbsp;&middot;&nbsp;
