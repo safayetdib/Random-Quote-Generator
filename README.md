@@ -21,4 +21,4 @@ Quote API : https://api.quotable.io/random
 # Live Demo : https://safayetalam.github.io/Random-Quote-Generator/
 
 ---
-> GitHub [@SafayetAlam](https://github.com/SafayetAlam) &nbsp;&middot;&nbsp;
+> GitHub [@safayetdib](https://github.com/safayetdib) &nbsp;&middot;&nbsp;
